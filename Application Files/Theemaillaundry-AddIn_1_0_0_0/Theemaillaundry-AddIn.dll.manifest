@@ -43,16 +43,6 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="Accessibility" version="4.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="mscorlib" version="4.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
       <assemblyIdentity name="System.Collections" version="4.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
     </dependentAssembly>
   </dependency>
@@ -74,11 +64,6 @@
   <dependency>
     <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
       <assemblyIdentity name="System.ComponentModel.EventBasedAsync" version="4.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="System.Core" version="4.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" />
     </dependentAssembly>
   </dependency>
   <dependency>
@@ -403,62 +388,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="stdole.dll" size="32416">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="stdole.dll" size="16384">
       <assemblyIdentity name="stdole" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>V7mfoRRmE6RC/ZLNxKdhZgTrwNymvx0W/KmNUJKMI7I=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.dll" size="1442776">
-      <assemblyIdentity name="System" version="4.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>GBCL/NzsqPrmpeg4SCUPPVkhFegzLMfRP5fLuAChUeQ=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.dll" size="1164272">
-      <assemblyIdentity name="System.Data" version="4.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>gQhB6TOch5GyTXAMSZTKvwY9CoVlyitraW7Pr0fFHTo=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.DataSetExtensions.dll" size="27192">
-      <assemblyIdentity name="System.Data.DataSetExtensions" version="4.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>5GwOrZDxG43kZbkXDTWRDAWfvReHs5TzIi7POwWh1bw=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Drawing.dll" size="189448">
-      <assemblyIdentity name="System.Drawing" version="4.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>v5s0Fs9IKKzqMrvLFJhM8BEPUs1muZj1j0i5PV/UCyU=</dsig:DigestValue>
+        <dsig:DigestValue>R8UaNNdPA6u60m2yK6hLRwIoIOklSk7MgAW7v1gMv6k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -511,42 +448,6 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Windows.Forms.dll" size="1507344">
-      <assemblyIdentity name="System.Windows.Forms" version="4.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>fynLOhmSY5NfVA188V4+3ECsazWzCrE+2K5Ub9p8cfg=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Xml.dll" size="920552">
-      <assemblyIdentity name="System.Xml" version="4.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>4qoZgDdxigUCJRF3AvkAA1Q7v+aDjbPAlZirGuWXZkU=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Xml.Linq.dll" size="43008">
-      <assemblyIdentity name="System.Xml.Linq" version="4.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>fUnuXNkAXqJno7PBvkZXoCnlFQ6titO/RM4BgntiZgk=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Theemaillaundry-AddIn.dll" size="39424">
       <assemblyIdentity name="Theemaillaundry-AddIn" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -554,7 +455,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>iXTD8Z2jKuKJzSUkhdQaPV+I4ROrzYsydggT8Diyyag=</dsig:DigestValue>
+        <dsig:DigestValue>ltX3piTRi4kYggWQa/HvqIeuQiFuBvmn5G4vNRDzGXg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -584,14 +485,12 @@
         </vstav3:entryPoint>
       </vstav3:entryPoints>
     </vstav3:entryPointsCollection>
-    <vstav3:update enabled="true">
-      <vstav3:expiration maximumAge="7" unit="days" />
-    </vstav3:update>
+    <vstav3:update enabled="true" />
     <vstav3:application>
       <vstov4:customizations xmlns:vstov4="urn:schemas-microsoft-com:vsto.v4">
         <vstov4:customization>
           <vstov4:appAddIn application="Outlook" loadBehavior="3" keyName="Theemaillaundry-AddIn">
-            <vstov4:friendlyName>Theemaillaundry-AddIn</vstov4:friendlyName>
+            <vstov4:friendlyName>Emaillaundry-AddIn</vstov4:friendlyName>
             <vstov4:description>Theemaillaundry-AddIn</vstov4:description>
             <vstov4:formRegions>
               <vstov4:formRegion name="Theemaillaundry-AddIn.FormRegion" vstov4.1:class="Theemaillaundry_AddIn.FormRegion+FormRegionFactory" xmlns:vstov4.1="urn:schemas-microsoft-com:vsto.v4.1">
@@ -604,4 +503,4 @@
       </vstov4:customizations>
     </vstav3:application>
   </vstav3:addIn>
-<publisherIdentity name="CN=developmentca" issuerKeyHash="07c06f92347628172447432959fd47a085a555a0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>7/iQCPuilYR/bKaa1cvr7CMChww=</DigestValue></Reference></SignedInfo><SignatureValue>WSqkjWpM2BHygFDmDrAmk8llBQ/SrfXPOyhBVWLz/8NcUrQYi0Zfg8beQ3+qnZjmkdIV+VwitPiIVatyb1q9t8T8QSTtch13ZIA30pJcN61eguS9+ERoOTi3o0p6zWc8b0sMy6LHWc7pcCTZuPVtRxhRcXZnG6GCBZhKJwvTUIoXN45y310ufxJjkyq/n705QlrCU7uo0fnpVpdaSFdAakitVM1rhoNN9mf18ovmd3kn1wugwPmigtXJ30fNzhR1b7ECbUsa6jUCjVo1e0xV1NZVVo7NHTjQsU6Dw2UBuDR7hFYWD792pVhE8YyY15GQLer8v5v+bWaV0GdtAtdA2g==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0GNDVthUfUhUoGx3IPJD6JboBuHMl1nkAP2u1YijJRPJRgP6AmsaO0f1fYRoZPCtLIyNdeNyls4ZjDU2EKX2wBvlGocwFiET5ZZQU+OxA5RILy8w4gUdNCMkXgsixZoENS5/H45g7KDUtW4trYLzT/vYJ0YHdXeiltf3h94TLdqSE6MFut3YhsGto1iznx6vOcLmpyRoogKskF6M6h3Xkg9hCA7JobshjhaTntexLiUaO2HgLf5YclUjRQ0RmBuE0OlfAPsCE/jcMgN3OaH3olhX3wvWFsrU54XEAIwvcUtytqVeMvn1jEjxDVSPKxckbs4jVyLCeUhTLUnA43bNKw==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0c870223ecebcbd59aa66c7f8495a2fb0890f8ef" Description="" Url=""><as:assemblyIdentity name="Theemaillaundry-AddIn.dll" version="1.0.0.0" publicKeyToken="bd2694edd543e319" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=developmentca</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>GQupwQtuZ35iW6piFYTlHsgv500=</DigestValue></Reference></SignedInfo><SignatureValue>c3BuLKxQOjlBjv3NZINLg12oguMpgTGdRubI+KHkr6nVFacUF8qGejOvdoRVKQ/ogtejv2YssJYDLOOffK/Avgmj28HOcuhm7XegQtYKxkTEoqoPpDQMXIjNaz9mKEZB6xK9rQ1Pv7G/QOjR55nLLdO0U9mkEWgSjV5iLPZ3UmosdMvztOR3feK/mwoI7Vc28FhR4R9zPl+wj/l7eCP5VeFVfkLwr9obelKzmEOsv08QGwLN3dlFSCFVQWXeG99v7rKi6MPHu4PCVWwkzexbbu+KD4jr5dzVxUwtnSK3lO/uj1oBvUcPpvcwZBamz+MttIRN3EkW3OoVbrtReLAkOw==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0GNDVthUfUhUoGx3IPJD6JboBuHMl1nkAP2u1YijJRPJRgP6AmsaO0f1fYRoZPCtLIyNdeNyls4ZjDU2EKX2wBvlGocwFiET5ZZQU+OxA5RILy8w4gUdNCMkXgsixZoENS5/H45g7KDUtW4trYLzT/vYJ0YHdXeiltf3h94TLdqSE6MFut3YhsGto1iznx6vOcLmpyRoogKskF6M6h3Xkg9hCA7JobshjhaTntexLiUaO2HgLf5YclUjRQ0RmBuE0OlfAPsCE/jcMgN3OaH3olhX3wvWFsrU54XEAIwvcUtytqVeMvn1jEjxDVSPKxckbs4jVyLCeUhTLUnA43bNKw==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIDJTCCAhGgAwIBAgIQ/TAN8sK236JAPMTM1h7pUjAJBgUrDgMCHQUAMBgxFjAUBgNVBAMTDWRldmVsb3BtZW50Y2EwHhcNMTYxMjA5MDU0MzQxWhcNMzkxMjMxMjM1OTU5WjAYMRYwFAYDVQQDEw1kZXZlbG9wbWVudGNhMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0GNDVthUfUhUoGx3IPJD6JboBuHMl1nkAP2u1YijJRPJRgP6AmsaO0f1fYRoZPCtLIyNdeNyls4ZjDU2EKX2wBvlGocwFiET5ZZQU+OxA5RILy8w4gUdNCMkXgsixZoENS5/H45g7KDUtW4trYLzT/vYJ0YHdXeiltf3h94TLdqSE6MFut3YhsGto1iznx6vOcLmpyRoogKskF6M6h3Xkg9hCA7JobshjhaTntexLiUaO2HgLf5YclUjRQ0RmBuE0OlfAPsCE/jcMgN3OaH3olhX3wvWFsrU54XEAIwvcUtytqVeMvn1jEjxDVSPKxckbs4jVyLCeUhTLUnA43bNKwIDAQABo3MwcTAPBgNVHRMBAf8EBTADAgEAMBMGA1UdJQQMMAoGCCsGAQUFBwMDMEkGA1UdAQRCMECAELiP1iRrd84/35fCJywBTh2hGjAYMRYwFAYDVQQDEw1kZXZlbG9wbWVudGNhghD9MA3ywrbfokA8xMzWHulSMAkGBSsOAwIdBQADggEBABhjCqRYvZMkOUYPDIzn0xI2OEE0kCBfhWpPwktmMEqsSt8VA2VGYr5pO6Gm6g7i61E6kV/YG78WrdO3eio6yZuN4hHG8vxMNEdaSEyNlNabLDiXIXN9vJMEMiQTefyedl8tnwxlhpk64hkfkIixnC+ucuazaXW51GOgVl+s6nlffb8hfZkoBpao6U1NnRyIJWyuep4woK8CIIKIRTv2nRZYrVJdShHfVCMGrOBRJWzCxPzkeNL+kucwCdkN7AGK8bj1tcLnj2M2uijgpIr41JZuN3lm2jzsG6xYVP+BYM1bHkVm3TUQ7DYzx/VM8cs4PbjWuC2RR5GWgZdutlCRG1Y=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+<publisherIdentity name="CN=developmentca" issuerKeyHash="07c06f92347628172447432959fd47a085a555a0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>+kHXr0EiCKpz7fvPmxylCi27l5k=</DigestValue></Reference></SignedInfo><SignatureValue>Zr/prWqwio7T1nIESH1X8a9exSp8+K7jKzZEK4l1qfnZQnsbdNG4fVhEn4oVe/RrQ5fdm+B9ayEIvT58fLJ7zE/r57YsYimvrmTpvHPMz2CWAVH2upm4i24R+R1f7H+OcChB+lxh10CsTCwIFt/mfyDCBtBgGW1ZQrh1mT1SKcSk3/n9UVZd2FKQqokl0BwXLBcvezHsXXyL0aNWKgDrT0WvfzBfSsYfiAdAi/NZz1p7o/1L2UJQ5gvdfdfLDGW6Gc472iLGRzLcJI2EF0rFcFk46S3Euxy+b7N6/fbk0uNXBNaMhZR7I4HiCPuEykf1538ONcdPmlyQOApLa3IkQA==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0GNDVthUfUhUoGx3IPJD6JboBuHMl1nkAP2u1YijJRPJRgP6AmsaO0f1fYRoZPCtLIyNdeNyls4ZjDU2EKX2wBvlGocwFiET5ZZQU+OxA5RILy8w4gUdNCMkXgsixZoENS5/H45g7KDUtW4trYLzT/vYJ0YHdXeiltf3h94TLdqSE6MFut3YhsGto1iznx6vOcLmpyRoogKskF6M6h3Xkg9hCA7JobshjhaTntexLiUaO2HgLf5YclUjRQ0RmBuE0OlfAPsCE/jcMgN3OaH3olhX3wvWFsrU54XEAIwvcUtytqVeMvn1jEjxDVSPKxckbs4jVyLCeUhTLUnA43bNKw==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9997bb2d0aa51c9bcffbed73aa082241afd741fa" Description="" Url=""><as:assemblyIdentity name="Theemaillaundry-AddIn.dll" version="1.0.0.0" publicKeyToken="bd2694edd543e319" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=developmentca</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>9ofkxbGdMrOq+IkGYILiYw4YPPA=</DigestValue></Reference></SignedInfo><SignatureValue>m6MTCRSLy8NP2I5cWAXDr50YN8rQ4doSrbV8oVGGqT50OlLx3C7C01eMl9SSMQlHIlafkydDbMq4WuzgcehukN5RmuyQORlatZOJDjTubegyfOH+OKgtXK0dUOAc+r4YG79zX2hQ+KtDx6g9YRT6ASwKY39IcbDtA+CKEcQkrLubiCwf334zIAY87HC9CQ9q89DL1sSH0V+yHCT0DWFgSPDucsxSKt0/8OSe1WtJ3DI+V8Xp8/Kt5MHG4UeSb1GL+gMKDIPtbPUOd0x9ubAdrxMKV8GKJDddY3owYMC7rj7r9WldhAEq4C0gdlXQuUL2gRdZ2r6SxtIKJvJOKYLptQ==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0GNDVthUfUhUoGx3IPJD6JboBuHMl1nkAP2u1YijJRPJRgP6AmsaO0f1fYRoZPCtLIyNdeNyls4ZjDU2EKX2wBvlGocwFiET5ZZQU+OxA5RILy8w4gUdNCMkXgsixZoENS5/H45g7KDUtW4trYLzT/vYJ0YHdXeiltf3h94TLdqSE6MFut3YhsGto1iznx6vOcLmpyRoogKskF6M6h3Xkg9hCA7JobshjhaTntexLiUaO2HgLf5YclUjRQ0RmBuE0OlfAPsCE/jcMgN3OaH3olhX3wvWFsrU54XEAIwvcUtytqVeMvn1jEjxDVSPKxckbs4jVyLCeUhTLUnA43bNKw==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIDJTCCAhGgAwIBAgIQ/TAN8sK236JAPMTM1h7pUjAJBgUrDgMCHQUAMBgxFjAUBgNVBAMTDWRldmVsb3BtZW50Y2EwHhcNMTYxMjA5MDU0MzQxWhcNMzkxMjMxMjM1OTU5WjAYMRYwFAYDVQQDEw1kZXZlbG9wbWVudGNhMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0GNDVthUfUhUoGx3IPJD6JboBuHMl1nkAP2u1YijJRPJRgP6AmsaO0f1fYRoZPCtLIyNdeNyls4ZjDU2EKX2wBvlGocwFiET5ZZQU+OxA5RILy8w4gUdNCMkXgsixZoENS5/H45g7KDUtW4trYLzT/vYJ0YHdXeiltf3h94TLdqSE6MFut3YhsGto1iznx6vOcLmpyRoogKskF6M6h3Xkg9hCA7JobshjhaTntexLiUaO2HgLf5YclUjRQ0RmBuE0OlfAPsCE/jcMgN3OaH3olhX3wvWFsrU54XEAIwvcUtytqVeMvn1jEjxDVSPKxckbs4jVyLCeUhTLUnA43bNKwIDAQABo3MwcTAPBgNVHRMBAf8EBTADAgEAMBMGA1UdJQQMMAoGCCsGAQUFBwMDMEkGA1UdAQRCMECAELiP1iRrd84/35fCJywBTh2hGjAYMRYwFAYDVQQDEw1kZXZlbG9wbWVudGNhghD9MA3ywrbfokA8xMzWHulSMAkGBSsOAwIdBQADggEBABhjCqRYvZMkOUYPDIzn0xI2OEE0kCBfhWpPwktmMEqsSt8VA2VGYr5pO6Gm6g7i61E6kV/YG78WrdO3eio6yZuN4hHG8vxMNEdaSEyNlNabLDiXIXN9vJMEMiQTefyedl8tnwxlhpk64hkfkIixnC+ucuazaXW51GOgVl+s6nlffb8hfZkoBpao6U1NnRyIJWyuep4woK8CIIKIRTv2nRZYrVJdShHfVCMGrOBRJWzCxPzkeNL+kucwCdkN7AGK8bj1tcLnj2M2uijgpIr41JZuN3lm2jzsG6xYVP+BYM1bHkVm3TUQ7DYzx/VM8cs4PbjWuC2RR5GWgZdutlCRG1Y=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
